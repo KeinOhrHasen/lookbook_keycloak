@@ -1,0 +1,79 @@
+.login-pf body {
+    background: DimGrey none;
+}
+
+body {
+    /* background-image: url('../img/slopes.jpg'); */
+    background: linear-gradient(270deg, #e09b8f 0%, #2c5f68 100%);
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 48px;
+    box-sizing: border-box;
+}
+
+#kc-header {
+    color: aliceblue;
+}
+
+#kc-page-title {
+    color: black;
+    text-align: center;
+    background-color: #0000004d;
+    padding: 24px;
+
+}
+
+#kc-content {
+    background-color: #0000004d;
+    padding: 24px;
+}
+
+form>div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+form label {
+    width: 150px;
+    color: aliceblue;
+}
+
+
+#username {
+    padding: 8px
+}
+
+#password {
+    padding: 8px
+}
+
+button[aria-controls="password"] {
+    width: 50px;
+    padding: 8px;
+    background-color: #dcdcdc;
+    border-radius: 8px;
+    border: none;
+}
+
+button[aria-label="Hide password"]::after {
+    content: 'hide';
+}
+
+button[aria-label="Show password"]::after {
+    content: 'show';
+}
+
+#kc-form-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#kc-login {
+    padding: 8px 32px;
+    background-color: #4487ff;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
